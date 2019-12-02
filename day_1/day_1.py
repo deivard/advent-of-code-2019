@@ -5,7 +5,7 @@ def calcFuel(mass):
   return 0 if fuel <= 0 else fuel + calcFuel(fuel)
 
 
-with open('day1_input.txt') as f:
+with open('input.txt') as f:
   read_data = f.read().splitlines()
 
 total_fuel_req = 0
