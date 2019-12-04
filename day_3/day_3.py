@@ -1,6 +1,3 @@
-import numpy as np
-from math import isnan
-
 # cuz global variables mane
 shortest_steps_intersection = 999999
 
